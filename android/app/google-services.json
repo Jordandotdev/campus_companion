@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "69721181543",
+    "project_id": "campus-companion-bf4eb",
+    "storage_bucket": "campus-companion-bf4eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69721181543:android:d09dbb7fde3543413733c2",
+        "android_client_info": {
+          "package_name": "com.example.campus_companion"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ8j4MIU3zzWdkt_kqP3Zm3dsoKHIt0nY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
