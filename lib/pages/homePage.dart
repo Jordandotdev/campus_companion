@@ -131,7 +131,7 @@ class timeTable extends StatelessWidget {
           ),
           Padding(
             padding: EdgeInsets.all(8.0),
-            child: Text('Math', style: TextStyle(color: Colors.white)),
+            child: Text('SSP', style: TextStyle(color: Colors.white)),
           ),
           Padding(
             padding: EdgeInsets.all(8.0),
@@ -145,7 +145,7 @@ class timeTable extends StatelessWidget {
           ),
           Padding(
             padding: EdgeInsets.all(8.0),
-            child: Text('Physics', style: TextStyle(color: Colors.white)),
+            child: Text('MAD', style: TextStyle(color: Colors.white)),
           ),
           Padding(
             padding: EdgeInsets.all(8.0),
@@ -159,21 +159,7 @@ class timeTable extends StatelessWidget {
           ),
           Padding(
             padding: EdgeInsets.all(8.0),
-            child: Text('Chemistry', style: TextStyle(color: Colors.white)),
-          ),
-          Padding(
-            padding: EdgeInsets.all(8.0),
-            child: Text('9:00 - 10:00', style: TextStyle(color: Colors.white)),
-          ),
-        ]),
-        TableRow(children: [
-          Padding(
-            padding: EdgeInsets.all(8.0),
-            child: Text('Thursday', style: TextStyle(color: Colors.white)),
-          ),
-          Padding(
-            padding: EdgeInsets.all(8.0),
-            child: Text('Biology', style: TextStyle(color: Colors.white)),
+            child: Text('DDS', style: TextStyle(color: Colors.white)),
           ),
           Padding(
             padding: EdgeInsets.all(8.0),
@@ -187,7 +173,7 @@ class timeTable extends StatelessWidget {
           ),
           Padding(
             padding: EdgeInsets.all(8.0),
-            child: Text('History', style: TextStyle(color: Colors.white)),
+            child: Text('CC', style: TextStyle(color: Colors.white)),
           ),
           Padding(
             padding: EdgeInsets.all(8.0),
