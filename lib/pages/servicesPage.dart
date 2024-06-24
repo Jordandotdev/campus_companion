@@ -6,9 +6,6 @@ class ServicePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Services'),
-      ),
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(16.0),
@@ -16,7 +13,7 @@ class ServicePage extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'Library Services',
+                'Services',
                 style: TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.bold,

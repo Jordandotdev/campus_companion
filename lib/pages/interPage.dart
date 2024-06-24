@@ -25,9 +25,9 @@ class _interPageState extends State<interPage> {
   final List<Widget> _pages = [
     HomePage(),
     TimeTablePage(),
-    profilePage(),
-    ServicePage(),
     EventsPage(),
+    ServicePage(),
+    profilePage(),
   ];
 
   @override

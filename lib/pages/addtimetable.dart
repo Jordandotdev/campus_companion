@@ -70,7 +70,7 @@ class _Add_ScreenState extends State<Add_Screen> {
             );
             Navigator.pop(context);
           },
-          child: Text('Add Task'),
+          child: Text('Add Time Table'),
         ),
         ElevatedButton(
           style: ElevatedButton.styleFrom(
