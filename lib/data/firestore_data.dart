@@ -23,8 +23,8 @@ class FirestoreDatasource {
   }
 
   // Renamed method to follow lowerCamelCase convention
-  Future<bool> addNote(String module, String title, String day, String room,
-      String lecturer) async {
+  Future<bool> addTimeTable(String module, String title, String day,
+      String room, String lecturer) async {
     try {
       var uuid = Uuid().v4();
       DateTime data = DateTime.now(); // Removed 'new' keyword
@@ -36,7 +36,6 @@ class FirestoreDatasource {
           .set({
         "id": uuid,
         "module": module,
-        "isDone": false,
         'day': day,
         'time': '${data.hour}:${data.minute}',
         'room': room,
@@ -77,8 +76,7 @@ class FirestoreDatasource {
           .collection('users')
           .doc(_auth.currentUser!.uid)
           .collection('notes')
-          .doc(uuid)
-          .update({'isDone': isDone}); // Fixed typo in field name
+          .doc(uuid);
 
       // Delete the document after successful update
       await _firestore

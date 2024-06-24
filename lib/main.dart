@@ -1,4 +1,5 @@
 import 'package:campus_companion/pages/HomePage.dart';
+import 'package:campus_companion/pages/ProfilePage.dart';
 import 'package:flutter/material.dart';
 import 'pages/loginPage.dart';
 import 'pages/registerPage.dart';
@@ -23,6 +24,7 @@ class MyApp extends StatelessWidget {
         '/home': (context) => HomePage(),
         '/signup': (context) => RegisterPage(),
         '/login': (context) => LoginPage(),
+        '/profile': (context) => profilePage(),
       },
     );
   }

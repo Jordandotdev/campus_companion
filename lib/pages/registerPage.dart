@@ -21,7 +21,7 @@ class _RegisterPageState extends State<RegisterPage> {
       appBar: AppBar(
         centerTitle: true,
         title: const Text(
-          'Register',
+          'Campus Companion',
           style: TextStyle(
             fontSize: 25,
             fontWeight: FontWeight.bold,
