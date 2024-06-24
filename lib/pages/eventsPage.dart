@@ -3,18 +3,21 @@ import 'package:expandable/expandable.dart';
 
 const List<Map<String, String>> events = [
   {
-    'title': 'Event 1',
-    'description': 'Description for Event 1',
+    'title': 'Extravaganza 24',
+    'description':
+        'Join us for Extravaganza 24, a grand celebration featuring live music, dance performances, and a variety of food stalls. Don\'t miss out on the chance to win exciting prizes in our games and raffles.',
     'time': '10:00 AM - 12:00 PM',
   },
   {
-    'title': 'Event 2',
-    'description': 'Description for Event 2',
+    'title': 'Baila Night 24',
+    'description':
+        'Get ready to dance the night away at Baila Night 24 Enjoy a mix of Latin and international music performed by top DJs. There will also be salsa lessons for beginners and a special performance by renowned dancers.',
     'time': '01:00 PM - 03:00 PM',
   },
   {
-    'title': 'Event 3',
-    'description': 'Description for Event 3',
+    'title': 'Christmas Party 24',
+    'description':
+        'Celebrate the holiday season with us at the Christmas Party 24 Indulge in festive foods, enjoy carols sung by local choirs, and participate in our Christmas-themed games and competitions. Bring your family and friends for a joyful afternoon.',
     'time': '04:00 PM - 06:00 PM',
   },
 ];
