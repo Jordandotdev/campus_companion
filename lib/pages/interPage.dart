@@ -1,6 +1,7 @@
 import 'package:campus_companion/pages/eventsPage.dart';
 import 'package:campus_companion/pages/profilePage.dart';
 import 'package:campus_companion/pages/servicesPage.dart';
+import 'package:campus_companion/pages/timetablePage.dart';
 import 'package:flutter/material.dart';
 import 'package:campus_companion/pages/homePage.dart';
 
@@ -23,6 +24,7 @@ class _interPageState extends State<interPage> {
   //pages
   final List<Widget> _pages = [
     HomePage(),
+    TimeTablePage(),
     profilePage(),
     ServicePage(),
     EventsPage(),

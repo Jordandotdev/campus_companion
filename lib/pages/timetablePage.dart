@@ -7,14 +7,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:campus_companion/data/firestore_data.dart';
 
-class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
+class TimeTablePage extends StatefulWidget {
+  const TimeTablePage({Key? key}) : super(key: key);
 
   @override
   _HomePageState createState() => _HomePageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _HomePageState extends State<TimeTablePage> {
   ConnectivityResult? connectivityResult;
   bool show = true;
 
