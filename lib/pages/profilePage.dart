@@ -67,7 +67,12 @@ class _LoginPageState extends State<profilePage> {
                 const SizedBox(height: 10),
                 //login button
                 MyLoginBtn(
-                  onTap: () => LoginPage(),
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => LoginPage()),
+                    );
+                  },
                   buttonText: 'Logout',
                 ),
 
